@@ -14,5 +14,5 @@ class Post(models.Model):
         self.published_date = timezone.now()
         self.save()
 
-    def __str__(self):
+    def __str__(self):  #cfr kthen metoda print, psh titujt e postimeve
         return self.title
